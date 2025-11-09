@@ -47,27 +47,9 @@ Real-Time Display (With/Without/Incorrect Mask)
 ---
 
 ## 🧩 **Project Structure**
+<img width="590" height="520" alt="image" src="https://github.com/user-attachments/assets/77bb4770-09ad-44cf-8d43-c004ec2680d4" />
 
-MASK_DETECTION_PROJECT/
-│
-├── dataset/ # Raw dataset
-├── dataset_sorted/ # Organized dataset (3 folders)
-├── results/ # Accuracy/loss plots, confusion matrix
-├── saved_models/ # Trained .h5 models
-│
-├── src/
-│ ├── check_environment.py # Dependency/environment check
-│ ├── organize_dataset_from_xml.py # XML to dataset converter
-│ ├── preprocess_data.py # Data augmentation utilities
-│ ├── train_model.py # Fine-tuned MobileNetV2 training script
-│ ├── evaluate_model.py # Model evaluation and metrics
-│ ├── detect_mask_live_mediapipe.py# Real-time mask detection script
-│
-├── test_samples/ # Manual test images
-├── utils/ # Supporting models/files
-│
-├── README.md # Documentation
-└── requirements.txt # Dependencies
+
 ---
 
 ## 🧠 **Model Details**
@@ -160,3 +142,4 @@ python detect_mask_live_mediapipe.py
 
 👨‍💻 Developed By
 C H BHARAGHAVATEJA VARDHAN
+
